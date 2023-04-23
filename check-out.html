@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>RainyDays - check out</title>
+    <meta name="description" content="check out page">
+    <meta name="author" content="Emel Jemal Hassen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body>
+    <nav>
+      <div>
+          <a href="index.html"><img src="Images/RainyDays_Logo.png" aria-label="site logo" alt="RainyDays Logo visualizing a mountain and pushing the comfort zone text"></a>
+      </div>
+      <input id="menu-toggle" type="checkbox">
+      <label aria-label="Navigation Menu" class='menu-button-container' for="menu-toggle">
+          <div class="menu-button">
+              <!-- this is empty because its the container where i draw the three bars for the hamburger menu -->
+          </div>
+      </label>
+      <ul class="menu">
+          <li class="homebutton"><a href="index.html">Home</a></li>
+          <li><a href="mens-jacket.html">Shop Men</a></li>
+          <li><a href="mens-jacket.html">Shop Women</a></li>
+          <li><a href="about.html">About</a></li>
+      </ul>
+      <div>
+        <a href="check-out.html" ><img src="images/cart.png" aria-label="shopping cart" alt="cart icons top page"></a>
+      </div>
+  </nav>
+    <main>
+      
+      <hr >
+      <h1>Shopping Cart Check-Out</h1>
+      <div class="checkout">
+        <div>
+          <h2 >Order summery</h2>
+          <br>
+          <table id="cartSummary">
+            
+          </table>
+        </div>
+        <div>
+          <form action="" autocomplete="on">
+            <h2>Enter Personal Details</h2>
+            <br>
+            <input type="email" placeholder="E-mail *" name="email" class="CO-input-full">
+            <br><br>
+            <input type="text" placeholder="First name *" name="fname" class="CO-input-left"> 
+            <input type="text" placeholder="Last name *" name="lname" class="CO-input-right">
+            <br><br>
+            <input type="text" placeholder="Shipping address" name="address" class="CO-input-full"> 
+            <br><br>
+            <input type="text" placeholder="Adress 2(optional)" class="CO-input-left"> 
+            <input type="text" placeholder="Postal code *" name="zip" class="CO-input-right">
+            <br><br>
+            <input type="text" placeholder="City *" name="city" class="CO-input-left"> 
+            <input type="text" placeholder="Country/Region *" name="country" class="CO-input-right">
+            <br><br>
+            <input type="text" placeholder="Phone number *" name="phone" class="CO-input-full">
+            <br><br>
+            <h2>Enter Payment Details</h2>
+            <img src="images/paymentmethods.png" alt="payment options allowed">
+            <br><br>
+            <input type="text" name="cardnumber" placeholder="card number *" class="CO-input-full">
+            <br><br>
+            <input type="text" name="expyear" placeholder="EXP MM/YY" class="CO-input-left">
+            <input type="text" name="cvv" placeholder="CVC" class="CO-input-right">
+            <br><br><br><br>
+            <a href="purchase-success.html" ><div class="text-center"><img src="images/submitbutton.png" alt="submt payment information"></div></a>
+            <br>
+          </form>
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <img src="images/delivery.png" alt="delivery-options">
+      <hr>
+    </main>
+    <script src="js/checkout.js" type="module"></script>
+    <footer>
+      <div>
+        <h3>FOLLOW US</h3>
+          <a href="https://www.instagram.com"><img src="images/socialmedia_insta.png" alt="link to instagram"></a>
+          <a href="https://www.facebook.com"><img  src="images/socialmedia_face.png" alt="link to facebook"></a>
+          <a href="https://www.twitter.com"><img  src="images/socialmedia_twitter.png" alt="link to twitter"></a>
+          <br>
+        <a href="contact.html"><h3>Contact Us</h3></a>
+        <br>
+      </div>
+  </footer>
+  </body>
+</html>
